@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71b8e0849a4d29a9c51732991b62417c",
+    "content-hash": "ca65fdab2d837fec7354d44438b46e0a",
     "packages": [
         {
             "name": "nikic/php-parser",
@@ -123,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/phpstan-safe-rule.git",
-                "reference": "f84cf63d5004dd5d29165e91ec9b313fa1979943"
+                "reference": "5c804889253ce9498ef185e108e9f94b6023208e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/phpstan-safe-rule/zipball/f84cf63d5004dd5d29165e91ec9b313fa1979943",
-                "reference": "f84cf63d5004dd5d29165e91ec9b313fa1979943",
+                "url": "https://api.github.com/repos/thecodingmachine/phpstan-safe-rule/zipball/5c804889253ce9498ef185e108e9f94b6023208e",
+                "reference": "5c804889253ce9498ef185e108e9f94b6023208e",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "issues": "https://github.com/thecodingmachine/phpstan-safe-rule/issues",
                 "source": "https://github.com/thecodingmachine/phpstan-safe-rule/tree/master"
             },
-            "time": "2025-08-17T13:40:21+00:00"
+            "time": "2025-11-21T09:41:49+00:00"
         },
         {
             "name": "thecodingmachine/safe",
