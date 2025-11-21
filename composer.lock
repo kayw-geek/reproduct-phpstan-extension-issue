@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2847e7626bd82837ac92bae9d555e0f7",
+    "content-hash": "71b8e0849a4d29a9c51732991b62417c",
     "packages": [
         {
             "name": "nikic/php-parser",
@@ -119,16 +119,16 @@
         },
         {
             "name": "thecodingmachine/phpstan-safe-rule",
-            "version": "v1.4.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/phpstan-safe-rule.git",
-                "reference": "1b231d1d7dc8fe81a94159fdf021be264c51268a"
+                "reference": "f84cf63d5004dd5d29165e91ec9b313fa1979943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/phpstan-safe-rule/zipball/1b231d1d7dc8fe81a94159fdf021be264c51268a",
-                "reference": "1b231d1d7dc8fe81a94159fdf021be264c51268a",
+                "url": "https://api.github.com/repos/thecodingmachine/phpstan-safe-rule/zipball/f84cf63d5004dd5d29165e91ec9b313fa1979943",
+                "reference": "f84cf63d5004dd5d29165e91ec9b313fa1979943",
                 "shasum": ""
             },
             "require": {
@@ -142,6 +142,7 @@
                 "phpunit/phpunit": "^10.4",
                 "squizlabs/php_codesniffer": "^3.4"
             },
+            "default-branch": true,
             "type": "phpstan-extension",
             "extra": {
                 "phpstan": {
@@ -171,7 +172,7 @@
             "description": "A PHPStan rule to detect safety issues. Must be used in conjunction with thecodingmachine/safe",
             "support": {
                 "issues": "https://github.com/thecodingmachine/phpstan-safe-rule/issues",
-                "source": "https://github.com/thecodingmachine/phpstan-safe-rule/tree/v1.4.2"
+                "source": "https://github.com/thecodingmachine/phpstan-safe-rule/tree/master"
             },
             "time": "2025-08-17T13:40:21+00:00"
         },
@@ -9006,7 +9007,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "thecodingmachine/phpstan-safe-rule": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
