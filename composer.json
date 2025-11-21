@@ -1,0 +1,22 @@
+{
+    "name": "kaiwei/reproduct-phpstan-extension-issue",
+    "autoload": {
+        "psr-4": {
+            "Kaiwei\\ReproductPhpstanExtensionIssue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kayw",
+            "email": "weikaiii@sina.cn"
+        }
+    ],
+    "require": {
+        "thecodingmachine/phpstan-safe-rule": "^1.4"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "larastan/larastan": "^3.8",
+        "orchestra/testbench": "^10.7"
+    }
+}
